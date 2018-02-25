@@ -1,0 +1,280 @@
+---
+title: Saigon Cup 2017
+---
+<svg style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+  <symbol id="icon-fakebook" viewBox="0 0 32 32">
+  <title>fakebook</title>
+  <path d="M19 6h5v-6h-5c-3.86 0-7 3.14-7 7v3h-4v6h4v16h6v-16h5l1-6h-6v-3c0-0.542 0.458-1 1-1z"></path>
+  </symbol>
+  <symbol id="icon-twatter" viewBox="0 0 32 32">
+  <title>twatter</title>
+  <path d="M32 7.075c-1.175 0.525-2.444 0.875-3.769 1.031 1.356-0.813 2.394-2.1 2.887-3.631-1.269 0.75-2.675 1.3-4.169 1.594-1.2-1.275-2.906-2.069-4.794-2.069-3.625 0-6.563 2.938-6.563 6.563 0 0.512 0.056 1.012 0.169 1.494-5.456-0.275-10.294-2.888-13.531-6.862-0.563 0.969-0.887 2.1-0.887 3.3 0 2.275 1.156 4.287 2.919 5.463-1.075-0.031-2.087-0.331-2.975-0.819 0 0.025 0 0.056 0 0.081 0 3.181 2.263 5.838 5.269 6.437-0.55 0.15-1.131 0.231-1.731 0.231-0.425 0-0.831-0.044-1.237-0.119 0.838 2.606 3.263 4.506 6.131 4.563-2.25 1.762-5.075 2.813-8.156 2.813-0.531 0-1.050-0.031-1.569-0.094 2.913 1.869 6.362 2.95 10.069 2.95 12.075 0 18.681-10.006 18.681-18.681 0-0.287-0.006-0.569-0.019-0.85 1.281-0.919 2.394-2.075 3.275-3.394z"></path>
+  </symbol>
+  <symbol id="icon-jewtube" viewBox="0 0 32 32">
+  <title>jewtube</title>
+  <path d="M31.681 9.6c0 0-0.313-2.206-1.275-3.175-1.219-1.275-2.581-1.281-3.206-1.356-4.475-0.325-11.194-0.325-11.194-0.325h-0.012c0 0-6.719 0-11.194 0.325-0.625 0.075-1.987 0.081-3.206 1.356-0.963 0.969-1.269 3.175-1.269 3.175s-0.319 2.588-0.319 5.181v2.425c0 2.587 0.319 5.181 0.319 5.181s0.313 2.206 1.269 3.175c1.219 1.275 2.819 1.231 3.531 1.369 2.563 0.244 10.881 0.319 10.881 0.319s6.725-0.012 11.2-0.331c0.625-0.075 1.988-0.081 3.206-1.356 0.962-0.969 1.275-3.175 1.275-3.175s0.319-2.587 0.319-5.181v-2.425c-0.006-2.588-0.325-5.181-0.325-5.181zM12.694 20.15v-8.994l8.644 4.513-8.644 4.481z"></path>
+  </symbol>
+  </defs>
+</svg>
+
+<% register_url = 'https://goo.gl/forms/3yOLox5AulwyW3uG3' %>
+
+<div class="header" id="head">
+
+  <nav id="top-nav" class="navbar navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header hidden-xs hidden-sm">
+        <a class="navbar-brand" href="#head">
+          <%= image_tag 'sgc-logo.png', :class => 'logo' %>
+        </a>
+      </div>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a class="small-nav hidden-xs" href="#about"><%= t('about') %></a></li>
+        <li><a class="small-nav hidden-xs" href="#games"><%= t('games') %></a></li>
+        <li><a class="small-nav hidden-xs" href="#rules"><%= t('rules') %></a></li>
+        <li><a class="small-nav hidden-xs" href="#sponsors"><%= t('sponsors') %></a></li>
+        <li><a class="small-nav hidden-xs" href="#venue"><%= t('venue') %></a></li>
+        <% if I18n.locale != :vi %>
+          <li class="xs-left"><a class="language-picker" href="/">Tiếng Việt</a></li>
+        <% end %>
+        <% if I18n.locale != :en %>
+          <li class="xs-left"><a class="language-picker" href="/en">English</a></li>
+        <% end %>
+        <li class="xs-right"><a target="_blank" rel="noopener" href="<%= register_url %>" class="register btn"><%= t('register') %></a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <%= image_tag 'sgc-logo.png', :class => 'main-logo img-responsive' %>
+      </div>
+      <div class="col-xs-12">
+        <p class="subheader">
+          20-21.05.2017, Infinity Game Zone Phu Tho
+        </p>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-xs-12">
+        <a target="_blank" rel="noopener" href="<%= register_url %>" class="btn register-now"><%= t('register_now') %></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container content">
+
+  <div class="row">
+    <div id="about" class="col-xs-12">
+      <h1><%= t('what_is_sgc') %></h1>
+      <p><%= t('sgc_is') %></p>
+      <p><%= t('memorable') %></p>
+      <%= image_tag 'trailer.png', :class => 'trailer center-block img-responsive' %>
+    </div>
+  </div>
+
+  <div class="row">
+    <div id="games" class="col-xs-12">
+      <h1><%= t('competitive_games') %></h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-12 col-md-4">
+      <%= image_tag 'sf-logo.png', :class => 'game-logo center-block img-responsive' %>
+      <p>
+        <%= t('sfv_single') %>
+        <br />
+        <%= t('sfv_team') %>
+      </p>
+    </div>
+    <div class="col-sm-12 col-md-4">
+      <%= image_tag 'bb-logo.png', :class => 'game-logo center-block img-responsive' %>
+      <p><%= t('bb_single') %></p>
+    </div>
+    <div class="col-sm-12 col-md-4">
+      <%= image_tag 'gg-logo.png', :class => 'game-logo center-block img-responsive' %>
+      <p><%= t('gg_single') %></p>
+    </div>
+
+    <div class="col-xs-12">
+      <p class="red-emphasis">
+        <a href="https://docs.google.com/spreadsheets/d/1fwRWpiyVO_1d5mxF5A-qCpe562ZkFXw6Os4lyprErsQ/" target="_blank" rel="noopener"><%= t('schedule_tba') %></a>
+      </p>
+    </div>
+
+    <div class="col-xs-12">
+      <a target="_blank" rel="noopener" href="<%= register_url %>" class="btn register-now"><%= t('register_now') %></a>
+    </div>
+  </div>
+
+  <div class="row">
+    <div id="rules" class="col-xs-12">
+      <h1><%= t('rules_regulations') %></h1>
+    </div>
+
+    <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8 rules">
+      <% rules = ['ps4', 'bo3', 'losers', 'register_early', 'brackets', 'equipment', 'smoking', 'streaming'] %>
+      <% rules.each do |rule| %>
+        <p>
+        <%= t(rule) %>
+        </p>
+      <% end %>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12">
+      <h1><%= t('prizes') %></h1>
+    </div>
+
+    <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8 prizes">
+      <p><%= t('pot_goes_to_prize') %></p>
+      <p><%= t('prize_distribution') %></p>
+      <div>
+        <%= t('single_prizes') %><br />
+        <ul class="prize-list">
+        <% ['champion', 'runner_up', 'third'].each do |item| %>
+          <li><%= t(item) %></li>
+        <% end %>
+        </ul>
+      </div>
+      <p><%= t('team_prize') %></p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div id="sponsors" class="col-xs-12">
+      <h1><%= t('organizers') %> & <%= t('sponsors') %></h1>
+    </div>
+  </div>
+
+  <div class="row organizers-row">
+    <div class="col-md-3">
+      <p><%= t('organizers') %></p>
+    </div>
+    <div class="col-md-3">
+      <a target="_blank" rel="noopener" href="https://www.facebook.com/groups/SFVietnam/">
+        <%= image_tag 'sfvn-logo.png', :class => 'center-block img-responsive' %>
+      </a>
+    </div>
+    <div class="col-md-3">
+      <a target="_blank" rel="noopener" href="https://www.facebook.com/SaigonFGC/">
+        <%= image_tag 'sgfgc-logo.png', :class => 'center-block img-responsive' %>
+      </a>
+    </div>
+  </div>
+
+  <div class="row organizers-row">
+    <div class="col-md-3">
+      <p><%= t('sponsors') %></p>
+    </div>
+    <div class="col-md-3">
+      <%= image_tag 'protour-logo.png', :class => 'center-block img-responsive' %>
+    </div>
+    <div class="col-md-3">
+      <%= image_tag 'ps4-logo.png', :class => 'center-block img-responsive' %>
+    </div>
+    <div class="col-md-3">
+      <%= image_tag 'twitch-logo.png', :class => 'center-block img-responsive' %>
+    </div>
+  </div>
+
+<!--
+  <div class="row organizers-row">
+    <div class="col-md-3 col-md-offset-3">
+      <%= image_tag 'zowie-logo.png', :class => 'center-block img-responsive' %>
+    </div>
+    <div class="col-md-3">
+      <%= image_tag 'hyperx-logo.png', :class => 'center-block img-responsive' %>
+    </div>
+    <div class="col-md-3">
+      <%= image_tag 'pdp-logo.png', :class => 'center-block img-responsive' %>
+    </div>
+  </div>
+
+  <div class="row organizers-row">
+    <div class="col-md-3 col-md-offset-3">
+      <%= image_tag 'vertagear-logo.png', :class => 'center-block img-responsive' %>
+    </div>
+    <div class="col-md-3">
+      <%= image_tag 'razer-logo.png', :class => 'center-block img-responsive' %>
+    </div>
+  </div>
+-->
+
+  <div class="row organizers-row">
+    <div class="col-md-3">
+      <p><%= t('press') %></p>
+    </div>
+    <div class="col-md-3">
+      <%= image_tag 'motgame-logo.png', :class => 'center-block img-responsive' %>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12 col-lg-10 col-lg-offset-1">
+      <p><%= t('be_our_sponsor') %></p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div id="venue" class="col-xs-12">
+      <h1><%= t('venue') %></h1>
+    </div>
+    <div class="col-xs-12">
+      <div class="venue-name">INFINITY GAME ZONE PHÚ THỌ</div>
+      <a class="venue-link" href="https://www.facebook.com/Infinity.GameZone.PT/" target="_blank" rel="noopener">
+        www.facebook.com/Infinity.GameZone.PT/
+      </a>
+      <div><%= t('venue_address') %></div>
+    </div>
+    <div class="col-md-12 col-lg-10 col-lg-offset-1 map">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.564190995421!2d106.66325064533922!3d10.76803188728442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752eea2a2d9c3b%3A0x717020ef34534a9!2sInfinity+Game+Zone+Ph%C3%BA+Th%E1%BB%8D!5e0!3m2!1sen!2s!4v1489932252045" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 hashtag">
+        #SAIGONCUP
+      </div>
+
+      <div class="col-xs-12 col-sm-4">
+        <a class="s-link fakebook" target="_blank" rel="noopener" href="https://www.facebook.com/SaigonFGC/">
+          <span>SAIGONFGC</span>
+          <svg class="icon icon-fakebook"><use xlink:href="#icon-fakebook"></use></svg>
+        </a>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <a class="s-link twatter" target="_blank" rel="noopener" href="https://twitter.com/saigonfgc">
+          <span>SAIGONFGC</span>
+          <svg class="icon icon-twatter"><use xlink:href="#icon-twatter"></use></svg>
+        </a>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <a class="s-link jewtube" target="_blank" rel="noopener" href="https://www.youtube.com/channel/UCXKJS58sqzsy0ntJgH3YCXQ">
+          <span>SAIGONFGC</span>
+          <svg class="icon icon-jewtube"><use xlink:href="#icon-jewtube"></use></svg>
+        </a>
+      </div>
+
+      <div class="col-xs-12">
+        <p class="archives">
+          <span>[<a target="_blank" rel="noopener" href="https://www.youtube.com/playlist?list=PLZ-PMUoGSBRTW-Vh0LwISmgqscsqqHcFY">Saigon Cup 2014</a>]</span>
+          <span>[<a target="_blank" rel="noopener" href="https://www.youtube.com/playlist?list=PLfMu1efwDKb5n5tWsO-SHVdO_ALZQiYsl">Saigon Cup 2015</a>]</span>
+        </p>
+      </div>
+
+      <div class="col-xs-12 copyright">
+        &copy; 2017 SF-Vietnam. All Rights Reserved.
+      </div>
+    </div>
+  </div>
+</div>

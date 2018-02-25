@@ -1,0 +1,264 @@
+$register-font-size: 30px
+$red-text: #df282a
+$red-button: #e0292b
+$background: #111
+$navbar-height: 100px
+$footer-background: #3b3b3b
+$xs-navbar-height: 50px
+
+body
+  background-color: $background
+  color: white
+  font-family: "Open Sans", sans-serif
+  font-size: 18px
+
+p
+  a
+    color: $red-text
+    text-decoration: none
+    &:hover, &:active
+      text-decoration: underline
+      color: $red-text
+    &:visited
+      text-decoration: none
+      color: $red-text
+
+.btn
+  border-radius: 0
+  background-color: $red-button
+  font-weight: bold
+  font-family: Oswald, sans-serif
+  color: white
+
+.register-now
+  padding: 10px 50px
+  font-size: $register-font-size
+  text-transform: uppercase
+
+.logo
+  height: 70px
+
+.language-picker
+  &:hover
+    text-decoration: none
+
+.navbar-brand
+  height: $navbar-height
+
+.affix
+  background-color: $footer-background
+
+nav
+  transition: background-color 0.5s
+
+
+.header
+  background-image: url('/images/bg.jpg')
+  background-size: cover
+  background-position: center
+  padding: $navbar-height 0
+
+  @media (max-width: 767px)
+    padding-left: 20px
+
+  .navbar
+    font-size: 14px
+    border-radius: 0
+    text-transform: uppercase
+    font-weight: bold
+    vertical-align: middle
+
+    .navbar-nav
+      li
+        a
+          padding-top: 0
+          padding-bottom: 0
+          height: $navbar-height
+          line-height: $navbar-height
+          vertical-align: middle
+
+          @media (max-width: 767px)
+            height: $xs-navbar-height
+            line-height: $xs-navbar-height
+
+    @media (min-width: 992px)
+      .small-nav, .language-picker
+        line-height: 50px
+
+    .register
+      color: white
+      width: 200px
+      height: $navbar-height
+      font-size: $register-font-size
+      text-align: center
+      vertical-align: middle
+      line-height: $navbar-height
+      padding: 0
+      &:hover, &:active
+        background-color: $red-button
+        color: $background
+      &:visited
+        text-decoration: none
+        color: white
+
+      @media (max-width: 991px)
+        width: 140px
+
+
+    a
+      color: white
+      &:hover
+        color: $red-text
+
+  .main-logo
+    margin: 50px auto 20px auto
+
+  .subheader
+    text-align: center
+    font-size: 45px
+    font-family: norwester, sans-serif
+    color: white
+    margin-bottom: 50px
+
+.content
+  text-align: center
+
+  h1
+    padding-top: $navbar-height
+    font-weight: bold
+    font-size: 50px
+
+    border-bottom: 1px solid transparent
+    padding-bottom: 30px
+    margin-bottom: 30px
+
+    -moz-border-image: -moz-linear-gradient(left, $background 0%, #aaa 50%, $background 100%)
+    -webkit-border-image: -webkit-linear-gradient(left, $background 0%,#aaa 50%,$background 100%)
+    border-image: linear-gradient(to right, $background 0%,#aaa 50%,$background 100%)
+    border-image-slice: 1
+
+  p
+    line-height: 1.5
+    margin-bottom: 40px
+    margin-top: 20px
+
+
+.trailer
+  max-height: 700px
+
+.game-logo
+  padding: 20px
+  max-height: 200px
+
+  @media (min-width: 992px) and (max-width: 1199px)
+    max-height: 180px
+
+.red-emphasis
+  color: $red-text
+  font-weight: bold
+
+.rules
+  margin-top: 20px
+
+  p
+    text-align: left
+    line-height: 1.5
+    margin-bottom: 1.5em
+
+.prizes
+  text-align: left
+
+.prize-list
+  margin-left: 50px
+
+.organizers-row
+  margin-bottom: 40px
+
+  p
+    text-transform: uppercase
+    font-weight: bold
+
+  img
+    padding: 10px
+
+.venue-name
+  margin-top: 30px
+  font-weight: bold
+
+.venue-link
+  color: $red-text
+  &:visited, &:hover, &:active
+    color: $red-text
+
+.map
+  margin-top: 30px
+  margin-bottom: 50px
+
+.footer
+  background-color: $footer-background
+
+  .hashtag
+    font-size: 30px
+    text-transform: uppercase
+    text-align: center
+    margin: 30px 0
+
+  .s-link
+    color: white
+    text-decoration: none
+
+    display: block
+    padding: 10px 20px
+    font-size: 25px
+    font-weight: bold
+
+    svg
+      width: 30px
+      height: 30px
+      float: right
+      fill: currentColor
+
+    &.fakebook
+      background-color: #3b5999
+      &:hover
+        color: #3b5999
+        background-color: white
+
+    &.twatter
+      background-color: #0084b4
+      &:hover
+        color: #0084b4
+        background-color: white
+
+    &.jewtube
+      background-color: #c4302c
+      &:hover
+        color: #c4302c
+        background-color: white
+
+  .copyright
+    text-align: center
+    padding: 20px
+
+  .archives
+    text-align: center
+    margin: 30px 0 0 0
+
+    span
+      margin: 0 10px
+
+
+@media (max-width: 767px)
+  nav
+    li
+      display: inline-block
+
+      &.xs-right
+        float: right
+
+      &.xs-left
+        float: left
+
+  .content
+    h1
+      padding-top: $xs-navbar-height

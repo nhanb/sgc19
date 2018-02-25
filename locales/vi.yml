@@ -1,0 +1,102 @@
+---
+vi:
+  description: Giải game đối kháng lớn nhất Việt Nam
+  about: Giới thiệu
+  games: Tựa game
+  rules: Thể thức
+  sponsors: Tài trợ
+  venue: Địa điểm
+  register: Đăng ký
+  register_now: Đăng ký ngay
+
+  what_is_sgc: Saigon Cup là gì?
+  sgc_is: |
+    Ra đời từ năm 2014 với mục đích nâng tầm cộng đồng game đối kháng Việt,
+    cộng đồng Street Fighter Vietnam tại thành phố Hồ Chí Minh với ước mơ vươn
+    mình ra biển lớn đã cùng nhau tạo nên một giải đấu quốc tế ngay tại Việt
+    Nam, điều mà trước đó và cho đến nay chưa có một nhà tổ chức nào khác ở
+    Việt Nam làm được. Với sự hậu thuẫn từ phía nhà sản xuất CAPCOM, 2017 là
+    năm thứ ba Saigon Cup được đưa vào hệ thống <a target="_blank"
+    rel="noopener" href="http://capcomprotour.com/schedule/">Capcom Pro
+    Tour</a> qua đó thu hút rất nhiều những hảo thủ tầm cỡ trong khu vực và thế
+    giới đến tranh tài.  2017 cũng là năm đầu tiên Saigon Cup mở rộng từ một
+    giải đấu Street Fighter lên thành một giải game đối kháng tổng hợp với 2
+    tựa game khác được đưa vào chương trình thi đấu là GUILTY GEAR XRD
+    REVELATOR và BLAZBLUE CENTRAL FICTION.
+
+  memorable: |
+    Cùng với giải đấu chính là STREET FIGHTER V, Saigon Cup 2017 thực sự hứa
+    hẹn sẽ là ngày hội đáng nhớ nhất trong năm dành cho tất cả những ai đã lớn
+    lên và gắn bó với dòng game đối kháng tại Việt Nam.
+
+  competitive_games: Game thi đấu
+  sfv_single: Cá nhân (CPT Ranking - 21/5)
+  sfv_team: Đồng đội 3v3 (20/5)
+  bb_single: Cá nhân (21/5)
+  gg_single: Cá nhân (20/5)
+  schedule_tba: XEM LỊCH THI ĐẤU & STREAM Ở ĐÂY
+
+  rules_regulations: Thể thức & quy định
+
+  ps4: |
+    1. Tất cả 4 giải sẽ thi đấu dưới hình thức loại kép (double elimination) với
+    nền máy là SONY PlayStation 4.
+
+  bo3: |
+    2. Tất cả các trận đấu sẽ diễn ra với thể thức BO3 (đánh 3 lấy 2). Riêng
+    top 8 của Street Fighter V (cá nhân) diễn ra với thể thức BO5 (đánh 5 lấy
+    3).
+
+  losers: |
+    3. Đối với trận chung kết tổng (Grand Final), người chơi từ nhánh thua sẽ
+    phải thắng 2 set để giành chức vô địch cuối cùng.
+
+  register_early: |
+    4. Ban tổ chức cho phép người chơi đăng ký tại chỗ vào ngày thi đấu, tuy
+    nhiên để đảm bảo cho sự kiện được diễn ra tốt nhất người chơi nên đăng ký
+    online trước.
+
+  brackets: |
+    5. Bảng thi đấu sẽ được công bố 3 ngày trước ngày bắt đầu giải trên fanpage
+    của <a target="_blank" rel="noopener"
+    href="https://www.facebook.com/SaigonFGC/">Saigon FGC</a> và nhóm facebook
+    <a target="_blank" rel="noopener"
+    href="https://www.facebook.com/groups/SFVietnam/">Street Fighter
+    Vietnam</a>.
+
+  equipment: |
+    6. Ban tổ chức sẽ cung cấp dụng cụ thi đấu sẵn tuy nhiên người chơi nên
+    mang theo dụng cụ riêng của mình để tiện cho việc bảo quản (được phép dùng
+    converter).
+
+  smoking: |
+    7. Không hút thuốc trong khu vực thi đấu để đảm bảo sức khỏe cho mọi người.
+
+  streaming: |
+    8. Giải đấu sẽ được stream trực tiếp tại <a target="_blank" rel="noopener"
+    href="https://www.twitch.tv/saigonfgc">twitch.tv/saigonfgc</a>.
+
+  prizes: Giải thưởng
+  pot_goes_to_prize: |
+    100% lệ phí sẽ được đưa vào quỹ giải thưởng. Riêng Street Fighter V (cá
+    nhân) thì ngoài tiền thưởng và hiện vật, người chơi lọt vào top 16 sẽ có
+    điểm Capcom Pro Tour. Tiền thưởng hoặc hiện vật từ nhà tài trợ sẽ được cập
+    nhật liên tục tại trang chủ của giải đấu và fanpage Saigon FGC.
+  prize_distribution: 'Cơ cấu tiền thưởng cho mỗi giải như sau:'
+  single_prizes: '1. Các giải cá nhân (Street Fighter V, Guilty Gear, BlazBlue):'
+  champion: 'Vô địch: 60% tổng lệ phí'
+  runner_up: 'Á quân: 30%'
+  third: 'Hạng 3: 10%'
+  team_prize: |
+    2. Giải Street Fighter V đồng đội 3v3: 100% tổng lệ phí thuộc về đội vô địch
+
+  organizers: Tổ chức
+  sponsors: tài trợ
+  press: Bảo trợ truyền thông
+  be_our_sponsor: |
+    Bạn là nhà tài trợ và muốn đồng hành cùng chúng tôi trong giải đấu game đối
+    kháng lớn nhất Việt Nam, một trong những giải đấu uy tín nhất châu Á? Hãy
+    liên hệ với chúng tôi qua địa chỉ <a
+    href="mailto:hisashi.mitsui89@gmail.com">hisashi.mitsui89@gmail.com</a>.
+
+  venue_address: 219 Lý Thường Kiệt, Phường 15, Quận 11, TP. Hồ Chí Minh
