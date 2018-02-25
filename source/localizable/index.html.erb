@@ -128,7 +128,7 @@ title: Saigon Cup 2018
     </div>
 
     <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-offset-2 col-lg-8 rules">
-      <% rules = ['ps4', 'bo3', 'losers', 'register_early', 'brackets', 'equipment', 'smoking', 'streaming'] %>
+      <% rules = ['ps4', 'bo3', 'losers', 'register_early', 'brackets', 'equipment', 'smoking'] %>
       <% rules.each do |rule| %>
         <p>
         <%= t(rule) %>
@@ -146,14 +146,25 @@ title: Saigon Cup 2018
       <p><%= t('pot_goes_to_prize') %></p>
       <p><%= t('prize_distribution') %></p>
       <div>
-        <%= t('single_prizes') %><br />
+        <%= t('sfv_prizes') %><br />
         <ul class="prize-list">
         <% ['champion', 'runner_up', 'third'].each do |item| %>
           <li><%= t(item) %></li>
         <% end %>
         </ul>
       </div>
-      <p><%= t('team_prize') %></p>
+      <div>
+        <%= t('single_prizes') %><br />
+        <ul class="prize-list">
+          <li><%= t('singles_champion') %></li>
+        </ul>
+      </div>
+      <div>
+        <%= t('team_prize') %><br />
+        <ul class="prize-list">
+          <li><%= t('team_champion') %></li>
+        </ul>
+      </div>
     </div>
   </div>
 
@@ -166,11 +177,6 @@ title: Saigon Cup 2018
   <div class="row organizers-row">
     <div class="col-md-3">
       <p><%= t('organizers') %></p>
-    </div>
-    <div class="col-md-3">
-      <a target="_blank" rel="noopener" href="https://www.facebook.com/groups/SFVietnam/">
-        <%= image_tag 'sfvn-logo.png', :class => 'center-block img-responsive' %>
-      </a>
     </div>
     <div class="col-md-3">
       <a target="_blank" rel="noopener" href="https://www.facebook.com/SaigonFGC/">
@@ -191,6 +197,11 @@ title: Saigon Cup 2018
     </div>
     <div class="col-md-3">
       <%= image_tag 'twitch-logo.png', :class => 'center-block img-responsive' %>
+    </div>
+  </div>
+  <div class="row organizers-row">
+    <div class="col-md-offset-3 col-md-3">
+      <%= image_tag 'hyperx-logo.png', :class => 'center-block img-responsive' %>
     </div>
   </div>
 
@@ -237,14 +248,12 @@ title: Saigon Cup 2018
       <h1><%= t('venue') %></h1>
     </div>
     <div class="col-xs-12">
-      <div class="venue-name">INFINITY GAME ZONE PHÚ THỌ</div>
-      <a class="venue-link" href="https://www.facebook.com/Infinity.GameZone.PT/" target="_blank" rel="noopener">
-        www.facebook.com/Infinity.GameZone.PT/
-      </a>
+      <div class="venue-name">ÉN EVENT SPACE</div>
+      <a class="venue-link" href="INFINITY GAME ZONE PHÚ THỌ" target="_blank" rel="noopener">enrestaurant.vn</a>
       <div><%= t('venue_address') %></div>
     </div>
     <div class="col-md-12 col-lg-10 col-lg-offset-1 map">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.564190995421!2d106.66325064533922!3d10.76803188728442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752eea2a2d9c3b%3A0x717020ef34534a9!2sInfinity+Game+Zone+Ph%C3%BA+Th%E1%BB%8D!5e0!3m2!1sen!2s!4v1489932252045" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.457938322113!2d106.68078181524726!3d10.776195692321664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f242e0f0ffd%3A0xc57f4a5451ba4e36!2zTmjDoCBow6BuZyDDiW4gVGVhIEhvdXNlICYgUmVzdGF1cmFudA!5e0!3m2!1sen!2s!4v1519562458910" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
   </div>
 </div>
@@ -275,15 +284,8 @@ title: Saigon Cup 2018
         </a>
       </div>
 
-      <div class="col-xs-12">
-        <p class="archives">
-          <span>[<a target="_blank" rel="noopener" href="https://www.youtube.com/playlist?list=PLZ-PMUoGSBRTW-Vh0LwISmgqscsqqHcFY">Saigon Cup 2014</a>]</span>
-          <span>[<a target="_blank" rel="noopener" href="https://www.youtube.com/playlist?list=PLfMu1efwDKb5n5tWsO-SHVdO_ALZQiYsl">Saigon Cup 2015</a>]</span>
-        </p>
-      </div>
-
       <div class="col-xs-12 copyright">
-        &copy; 2018 SF-Vietnam. All Rights Reserved.
+        &copy; 2018 Saigon FGC. All Rights Reserved.
       </div>
     </div>
   </div>

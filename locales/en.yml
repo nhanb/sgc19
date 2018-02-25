@@ -45,7 +45,8 @@ en:
 
   bo3: |
     2. All matches will be BO3 (Best Of 3). Street Fighter V top 8 (Single)
-    matches will be BO5.
+    matches will be BO5. Winners Finals, Losers Finals and Grand Finals for
+    Tekken, Guilty Gear & Dragon Ball will also be BO5.
 
   losers: |
     3. In Grand Finals, the player from Losers bracket will need to win 2 sets
@@ -59,10 +60,7 @@ en:
   brackets: |
     5. Brackets will be announced 3 days before tournament day on <a
     target="_blank" rel="noopener"
-    href="https://www.facebook.com/SaigonFGC/">Saigon FGC</a>'s fanpage and <a
-    target="_blank" rel="noopener"
-    href="https://www.facebook.com/groups/SFVietnam/">Street Fighter
-    Vietnam</a> facebook group.
+    href="https://www.facebook.com/SaigonFGC/">Saigon FGC</a>'s fanpage.
 
   equipment: |
     6. Gaming equipment will be provided by the tournament organizers but
@@ -72,18 +70,12 @@ en:
     7. Smoking is not allowed at the tournament venue to ensure a healthy
     environment for players.
 
-  streaming: |
-    8. The tournament will be live streamed at <a target="_blank"
-    rel="noopener"
-    href="https://www.twitch.tv/saigonfgc">twitch.tv/saigonfgc</a>.
-
   prizes: Prizes
   pot_goes_to_prize: |
     100% entrance fee will go into prize pot. As for Street Fighter V (Single),
     in addition to prize money & merchandise, top 16 players will earn Capcom
     Pro Tour points. Prize money or merchandise from sponsors will be promptly
     updated on the tournament's homepage and Saigon FGC fanpage.
-  prize_distribution: "Each tournament's prize money is distributed as follows:"
   single_prizes: '1. Single tournaments (Street Fighter V, Guilty Gear, BlazBlue):'
   champion: 'Champion: 60% pot'
   runner_up: 'Runner-up: 30%'
@@ -91,12 +83,21 @@ en:
   team_prize: |
     2. Street Fighter V Team 3v3: 100% pot goes to champion team.
 
+  sfv_prizes: '1. Street Fighter V Arcade Edition (single):'
+  champion: 'Champion: 5,000,000 VND'
+  runner_up: 'Runner-up: 3,000,000 VND'
+  third: 'Third place: 2,000,000 VND'
+  single_prizes: '2. Other single tournaments (Tekken, Guilty Gear, Dragon Ball):'
+  singles_champion: 'Champion: 3,000,000 VND + 1 HyperX headset'
+  team_prize: '3. Street Fighter V Arcade Edition (team):'
+  team_champion: 'Champion: 100% pot'
+
   organizers: Organizers
   sponsors: sponsors
   press: Press
   be_our_sponsor: |
     Are you a sponsor ready to join us in Vietnam's largest fighting game
     tournament, one of the most prestigious tournaments in Asia? Contact us at
-    <a href="mailto:hisashi.mitsui89@gmail.com">hisashi.mitsui89@gmail.com</a>.
+    <a href="mailto:saigonfgc@gmail.com">saigonfgc@gmail.com</a>.
 
-  venue_address: 219 Lý Thường Kiệt, Ward 15, District 11, Hồ Chí Minh City
+  venue_address: 308C Điện Biên Phủ, Ward 4, District 3, Hồ Chí Minh City, Vietnam
