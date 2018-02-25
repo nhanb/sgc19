@@ -1,6 +1,6 @@
 $register-font-size: 30px
-$red-text: #df282a
-$red-button: #e0292b
+$link-text-color: rgba(221, 192, 49, 255)
+$bigass-button-color: #DDC031
 $background: #111
 $navbar-height: 100px
 $footer-background: #3b3b3b
@@ -14,18 +14,18 @@ body
 
 p
   a
-    color: $red-text
+    color: $link-text-color
     text-decoration: none
     &:hover, &:active
       text-decoration: underline
-      color: $red-text
+      color: $link-text-color
     &:visited
       text-decoration: none
-      color: $red-text
+      color: $link-text-color
 
 .btn
   border-radius: 0
-  background-color: $red-button
+  background-color: $bigass-button-color
   font-weight: bold
   font-family: Oswald, sans-serif
   color: white
@@ -35,15 +35,14 @@ p
   font-size: $register-font-size
   text-transform: uppercase
 
-.logo
-  height: 70px
-
 .language-picker
   &:hover
     text-decoration: none
 
 .navbar-brand
   height: $navbar-height
+  display: flex
+  align-items: center
 
 .affix
   background-color: $footer-background
@@ -95,7 +94,7 @@ nav
       line-height: $navbar-height
       padding: 0
       &:hover, &:active
-        background-color: $red-button
+        background-color: $bigass-button-color
         color: $background
       &:visited
         text-decoration: none
@@ -108,7 +107,7 @@ nav
     a
       color: white
       &:hover
-        color: $red-text
+        color: $link-text-color
 
   .main-logo
     margin: 50px auto 20px auto
@@ -154,7 +153,7 @@ nav
     max-height: 180px
 
 .red-emphasis
-  color: $red-text
+  color: $link-text-color
   font-weight: bold
 
 .rules
@@ -186,9 +185,9 @@ nav
   font-weight: bold
 
 .venue-link
-  color: $red-text
+  color: $link-text-color
   &:visited, &:hover, &:active
-    color: $red-text
+    color: $link-text-color
 
 .map
   margin-top: 30px
