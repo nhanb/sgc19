@@ -1,7 +1,7 @@
 build: source/*
-	middleman build
+	bundle exec middleman build
 
 push: build/*
-	ghp-import build -p -c saigoncup2017.sf-vietnam.com
+	ghp-import build -p -c sgc18-dev.saigonfgc.com
 
 deploy: build push
