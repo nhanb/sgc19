@@ -3,7 +3,7 @@
 ```bash
 gem install bundler
 bundle install
-middleman serve
+bundle exec middleman serve
 # http://localhost:4567
 ```
 
