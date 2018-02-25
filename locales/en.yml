@@ -15,29 +15,33 @@ en:
     scene, the Street Fighter Vietnam community based in Hồ Chí Minh City
     worked together to organize an international fighting game tournament right
     in Vietnam - a feat that no other domestic organizer managed to achieve.
-    With Capcom's support, 2017 marks the third year Saigon Cup has been
+    With Capcom's support, 2018 marks the fourth year Saigon Cup has been
     officially included in <a target="_blank" rel="noopener"
     href="http://capcomprotour.com/schedule/">Capcom Pro Tour</a>, thus
-    attracting top-level players from all over the world. 2017 is also the
-    first year Saigon Cup becomes a multi-game tournament, with Guilty Gear Xrd
-    Revelator and Blazblue Central Fiction joining the lineup.
+    attracting top-level players from all over the world.
 
   memorable: |
-    With the Street Fighter V main event, Saigon Cup 2017 aims to be the year's
-    biggest celebration for those who grew up and fell in love with fighting
-    games in Vietnam.
+    In addition to Street Fighter V: Arcade Edition, this year's event will
+    also see high-level Vietnamese players from Tekken 7, DRAGON BALL FighterZ
+    and Guilty Gear Xrd REV 2. Whether you're a fighting game lover or just a
+    curious spectator wanting to learn more about the scene, Saigon Cup is the
+    place to be.
 
   competitive_games: Games
-  sfv_single: Single (CPT Ranking - May 21)
-  sfv_team: Team 3v3 (May 20)
-  bb_single: Single (May 21)
-  gg_single: Single (May 20)
-  schedule_tba: CHECK THE SCHEDULE HERE
+  sfv_single: Single (CPT Ranking - April 22)
+  dbfz_single: Single (22/4)
+  sfv_team: Team 3v3 (April 21)
+  t7_single: Single (April 21)
+  gg_single: Single (April 21)
+  schedule_tba: |
+    The whole event will be streamed live at <a target="_blank" rel="noopener"
+    href="https://www.twitch.tv/saigonfgc">twitch.tv/saigonfgc</a>. Brackets
+    and streaming schedule will be available 1 week before the tournament.
 
   rules_regulations: Rules & Regulations
   ps4: |
-    1. All 4 tournaments will use the double elimination format, played on SONY
-    PlayStation 4.
+    1. All 5 tournaments will use the double elimination format, played on SONY
+    PlayStation&nbsp;4.
 
   bo3: |
     2. All matches will be BO3 (Best Of 3). Street Fighter V top 8 (Single)
