@@ -1,4 +1,9 @@
- @font-face {
+@font-face {
   font-family: 'norwester';
   src: url('norwester.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'mittelschrift';
+  src: url('DIN_Mittelschrift.ttf') format('truetype');
 }
