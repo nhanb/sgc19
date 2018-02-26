@@ -53,11 +53,10 @@ p
   display: flex
   align-items: center
 
-.affix
-  background-color: $footer-background
-
 nav
-  transition: background-color 0.5s
+  background-color: black
+  a.small-nav:hover
+    background-color: transparent
 
 
 .header
@@ -96,11 +95,8 @@ nav
     .register
       color: white
       width: 170px
-      height: $navbar-height
       font-size: $register-font-size
       text-align: center
-      vertical-align: middle
-      line-height: $navbar-height
       padding: 0
       &:hover, &:active
         background-color: $bigass-button-color
@@ -119,7 +115,7 @@ nav
         color: $link-text-color
 
   .main-logo
-    margin: 50px auto 20px auto
+    margin: 119px auto 20px auto
 
   .subheader
     line-height: 57px
@@ -283,9 +279,11 @@ nav
       font-size: 49px
       margin-bottom: 50px
       margin-top: 30px
-
       .date
         font-size: 60px
+
+    .main-logo
+      margin-top: 50px
 
 .game-logo-wrapper
   height: 175px

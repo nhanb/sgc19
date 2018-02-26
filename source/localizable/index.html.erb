@@ -33,7 +33,7 @@ title: Saigon Cup 2018
       <ul class="nav navbar-nav navbar-right">
         <% if I18n.locale != :vi %>
           <li class="xs-left">
-            <a id="language-picker" href="/">
+            <a class="small-nav" id="language-picker" href="/">
               <%= image_tag 'vi.png' %>
               <span>VIE</span>
             </a>
@@ -41,7 +41,7 @@ title: Saigon Cup 2018
         <% end %>
         <% if I18n.locale != :en %>
           <li class="xs-left">
-            <a id="language-picker" href="/en">
+            <a class="small-nav" id="language-picker" href="/en">
               <%= image_tag 'en.png' %>
               <span>ENG</span>
             </a>
