@@ -35,9 +35,18 @@ p
   font-size: $register-font-size
   text-transform: uppercase
 
-.language-picker
+#language-picker
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+
   &:hover
     text-decoration: none
+
+  span
+    line-height: 30px
+    font-weight: normal
 
 .navbar-brand
   height: $navbar-height
@@ -262,6 +271,12 @@ nav
   .content
     h1
       padding-top: $xs-navbar-height
+
+  #language-picker
+    flex-direction: row
+    span
+      margin-left: 7px
+      font-weight: bold
 
 .game-logo-wrapper
   height: 175px

@@ -31,17 +31,27 @@ title: Saigon Cup 2018
       </div>
 
       <ul class="nav navbar-nav navbar-right">
+        <% if I18n.locale != :vi %>
+          <li class="xs-left">
+            <a id="language-picker" href="/">
+              <%= image_tag 'vi.png' %>
+              <span>VIE</span>
+            </a>
+          </li>
+        <% end %>
+        <% if I18n.locale != :en %>
+          <li class="xs-left">
+            <a id="language-picker" href="/en">
+              <%= image_tag 'en.png' %>
+              <span>ENG</span>
+            </a>
+          </li>
+        <% end %>
         <li><a class="small-nav hidden-xs" href="#about"><%= t('about') %></a></li>
         <li><a class="small-nav hidden-xs" href="#games"><%= t('games') %></a></li>
         <li><a class="small-nav hidden-xs" href="#rules"><%= t('rules') %></a></li>
         <li><a class="small-nav hidden-xs" href="#sponsors"><%= t('sponsors') %></a></li>
         <li><a class="small-nav hidden-xs" href="#venue"><%= t('venue') %></a></li>
-        <% if I18n.locale != :vi %>
-          <li class="xs-left"><a class="language-picker" href="/">Tiếng Việt</a></li>
-        <% end %>
-        <% if I18n.locale != :en %>
-          <li class="xs-left"><a class="language-picker" href="/en">English</a></li>
-        <% end %>
         <li class="xs-right"><a target="_blank" rel="noopener" href="<%= register_url %>" class="register btn"><%= t('register') %></a></li>
       </ul>
     </div>
