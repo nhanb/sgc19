@@ -83,11 +83,12 @@ vi:
     nhật liên tục tại trang chủ của giải đấu và fanpage Saigon FGC.
   prize_distribution: 'Cơ cấu tiền thưởng cho mỗi giải như sau:'
   sfv_prizes: '1. Street Fighter V Arcade Edition (cá nhân):'
-  champion: 'Vô địch: 5 triệu VNĐ'
-  runner_up: 'Á quân: 3 triệu VNĐ'
+  champion: 'Vô địch: 5 triệu VNĐ + 1 tai nghe HyperX Cloud Revolver'
+  runner_up: 'Á quân: 3 triệu VNĐ + 1 tai nghe HyperX Cloud Revolver'
   third: 'Hạng 3: 2 triệu VNĐ'
   single_prizes: '2. Các giải cá nhân khác (Tekken, Guilty Gear, Dragon Ball):'
-  singles_champion: 'Vô địch: 3 triệu VNĐ + 1 tai nghe HyperX'
+  singles_champion: 'Vô địch: 3 triệu VNĐ + 1 tai nghe HyperX Cloud Revolver'
+  singles_runner_up: 'Á quân: 1 triệu VNĐ'
   team_prize: '3. Street Fighter V Arcade Edition (đồng đội):'
   team_champion: 'Vô địch: 100% tổng tiền lệ phí'
 

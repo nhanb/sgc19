@@ -84,11 +84,12 @@ en:
     2. Street Fighter V Team 3v3: 100% pot goes to champion team.
 
   sfv_prizes: '1. Street Fighter V Arcade Edition (single):'
-  champion: 'Champion: 5,000,000 VND'
-  runner_up: 'Runner-up: 3,000,000 VND'
+  champion: 'Champion: 5,000,000 VND + 1 HyperX Cloud Revolver headset'
+  runner_up: 'Runner-up: 3,000,000 VND + 1 HyperX Cloud Revolver headset'
   third: 'Third place: 2,000,000 VND'
   single_prizes: '2. Other single tournaments (Tekken, Guilty Gear, Dragon Ball):'
-  singles_champion: 'Champion: 3,000,000 VND + 1 HyperX headset'
+  singles_champion: 'Champion: 3,000,000 VND + 1 HyperX Cloud Revolver headset'
+  singles_runner_up: 'Runner-up: 1,000,000 VND'
   team_prize: '3. Street Fighter V Arcade Edition (team):'
   team_champion: 'Champion: 100% pot'
 
