@@ -22,3 +22,6 @@
 
 # ripgrep/ag idiosyncrasies
 /.git
+
+# KDE Dolphin
+.directory

@@ -15,24 +15,22 @@ en:
     scene, the Street Fighter Vietnam community based in Hồ Chí Minh City
     worked together to organize an international fighting game tournament right
     in Vietnam - a feat that no other domestic organizer managed to achieve.
-    With Capcom's support, 2018 marks the fourth year Saigon Cup has been
-    officially included in <a target="_blank" rel="noopener"
-    href="http://capcomprotour.com/schedule/">Capcom Pro Tour</a>, thus
-    attracting top-level players from all over the world.
+    With 5 years of experience under our belt, Saigon Cup 2019 is endorsed by
+    Capcom and SNK, being an official event in both Capcom Pro Tour and Neo Geo
+    World Tour (King of Fighters).
 
   memorable: |
-    In addition to Street Fighter V: Arcade Edition, this year's event will
-    also see high-level Vietnamese players from Tekken 7, DRAGON BALL FighterZ
-    and Guilty Gear Xrd REV 2. Whether you're a fighting game lover or just a
+    Whether you're a fighting game lover or just a
     curious spectator wanting to learn more about the scene, Saigon Cup is the
     place to be.
 
   competitive_games: Games
-  sfv_single: Single (CPT Ranking - April 22)
-  dbfz_single: Single (April 22)
-  sfv_team: Team 3v3 (April 21)
-  t7_single: Single (April 21)
-  gg_single: Single (April 21)
+  dbfz_single: Single (May 11th)
+  sfv_team: Team 3v3 (May 11th)
+  samsho_single: '[SIDE] Single (May 11th)'
+  sfv_single: Single (May 12th)
+  kof_single: Single (May 12th)
+  kof98_single: '[SIDE] Single (May 12th)'
   schedule_tba: |
     The whole event will be streamed live at <a target="_blank" rel="noopener"
     href="https://www.twitch.tv/saigonfgc">twitch.tv/saigonfgc</a>. Brackets
@@ -72,26 +70,21 @@ en:
 
   prizes: Prizes
   pot_goes_to_prize: |
-    100% entrance fee will go into prize pot. As for Street Fighter V (Single),
-    in addition to prize money & merchandise, top 16 players will earn Capcom
-    Pro Tour points. Prize money or merchandise from sponsors will be promptly
-    updated on the tournament's homepage and Saigon FGC fanpage.
-  single_prizes: '1. Single tournaments (Street Fighter V, Guilty Gear, BlazBlue):'
-  champion: 'Champion: 60% pot'
-  runner_up: 'Runner-up: 30%'
-  third: 'Third place: 10%'
+    For Street Fighter V (Single), in addition to prize money & merchandise,
+    top 8 players will earn Capcom Pro Tour points. More details on prizes will
+    be updated Soon™.
+  sfv_prize: |
+    Street Fighter V: CPT points for top 8; 5,000,000 VND for first place.
   team_prize: |
-    2. Street Fighter V Team 3v3: 100% pot goes to champion team.
-
-  sfv_prizes: '1. Street Fighter V Arcade Edition (single):'
-  champion: 'Champion: 5,000,000 VND + 1 HyperX Cloud Revolver headset'
-  runner_up: 'Runner-up: 3,000,000 VND + 1 HyperX Cloud Revolver headset'
-  third: 'Third place: 2,000,000 VND'
-  single_prizes: '2. Other single tournaments (Tekken, Guilty Gear, Dragon Ball):'
-  singles_champion: 'Champion: 3,000,000 VND + 1 HyperX Cloud Revolver headset'
-  singles_runner_up: 'Runner-up: 1,000,000 VND'
-  team_prize: '3. Street Fighter V Arcade Edition (team):'
-  team_champion: 'Champion: 100% pot'
+    Street Fighter V (3v3): 3,000,000 VND for first place.
+  kof_prize: |
+    King of Fighters XIV: 11,000,000 VND + air ticket to Hong Kong Neo Geo
+    World Tour Finals for first place.
+  kof98_prize: |
+    King of Fighters' 98: 11,000,000 VND + air ticket to Hong Kong Neo Geo
+    World Tour Finals for first place.
+  dbfz_prize: |
+    Dragon Ball FighterZ: 4,000,000 VND for first place.
 
   organizers: Organizers
   sponsors: sponsors

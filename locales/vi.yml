@@ -15,26 +15,25 @@ vi:
     cộng đồng game đối kháng tại thành phố Hồ Chí Minh với ước mơ vươn mình ra
     biển lớn đã cùng nhau tạo nên một giải đấu quốc tế ngay tại Việt Nam, điều
     mà trước đó và cho đến nay chưa có một nhà tổ chức nào khác ở Việt Nam làm
-    được.  Với sự hậu thuẫn từ phía chính nhà sản xuất Capcom, 2018 là năm thứ
-    tư giải đấu Street Fighter tại Saigon Cup được đưa vào hệ thống <a
-    target="_blank" rel="noopener"
-    href="http://capcomprotour.com/schedule/">Capcom Pro Tour</a> qua đó thu
-    hút rất nhiều những hảo thủ tầm cỡ trong khu vực và thế giới đến tranh tài.
+    được.
+    Với uy tín sau 5 năm tổ chức kèm với sự hậu thuẫn từ những nhà sản
+    xuất game lớn như Capcom và SNK, Saigon Cup là giải đấu chính thức của 2
+    tour giải đấu thế giới Capcom Pro Tour (Street Fighter) và Neo Geo World
+    Tour (King of Fighters).
 
   memorable: |
-    Ngoài Street Fighter V: Arcade Edition thì Saigon Cup 2018 còn là nơi
-    quy tụ những gương mặt ưu tú nhất tại Việt Nam ở 3 dòng game đối kháng khác
-    là Tekken 7, Dragon Ball FighterZ và Guilty Gear Xrd REVELATOR 2. Nếu bạn là
+    Nếu bạn là
     người yêu game đối kháng hay đơn giản chỉ là một khán giả luôn tò mò vè thế
     giới game đối kháng tại Việt Nam, Saigon Cup chính là nơi để tất cả cùng hội
     tụ với niềm đam mê bất tận dành cho dòng game tuyệt vời này.
 
   competitive_games: Game thi đấu
-  sfv_single: Cá nhân (CPT Ranking - 22/4)
-  dbfz_single: Cá nhân (22/4)
-  sfv_team: Đồng đội 3on3 (21/4)
-  t7_single: Cá nhân (21/4)
-  gg_single: Cá nhân (21/4)
+  dbfz_single: Cá nhân (11/5)
+  sfv_team: Đồng đội 3on3 (11/5)
+  samsho_single: '[SIDE] Cá nhân (11/5)'
+  sfv_single: Cá nhân (12/5)
+  kof_single: Cá nhân (12/5)
+  kof98_single: '[SIDE] Cá nhân (12/5)'
   schedule_tba: |
     Giải đấu sẽ được truyền hình trực tiếp tại <a target="_blank" rel="noopener"
     href="https://www.twitch.tv/saigonfgc">twitch.tv/saigonfgc</a>. Lịch thi
@@ -77,20 +76,25 @@ vi:
 
   prizes: Giải thưởng
   pot_goes_to_prize: |
-    100% lệ phí sẽ được đưa vào quỹ giải thưởng. Riêng Street Fighter V (cá
-    nhân) thì ngoài tiền thưởng và hiện vật, người chơi lọt vào top 16 sẽ có
-    điểm Capcom Pro Tour. Tiền thưởng hoặc hiện vật từ nhà tài trợ sẽ được cập
-    nhật liên tục tại trang chủ của giải đấu và fanpage Saigon FGC.
+    Với Street Fighter V Arcade (giải Capcom Pro Tour) thì ngoài tiền thưởng và
+    hiện vật, người chơi lọt vào top 8 sẽ có điểm Capcom Pro Tour. Thông tin
+    chi tiết về phần thưởng sẽ được cập nhật trong thời gian tới trước ngày
+    diễn ra giải đấu.
   prize_distribution: 'Cơ cấu tiền thưởng cho mỗi giải như sau:'
-  sfv_prizes: '1. Street Fighter V Arcade Edition (cá nhân):'
-  champion: 'Vô địch: 5 triệu VNĐ + 1 tai nghe HyperX Cloud Revolver'
-  runner_up: 'Á quân: 3 triệu VNĐ + 1 tai nghe HyperX Cloud Revolver'
-  third: 'Hạng 3: 2 triệu VNĐ'
-  single_prizes: '2. Các giải cá nhân khác (Tekken, Guilty Gear, Dragon Ball):'
-  singles_champion: 'Vô địch: 3 triệu VNĐ + 1 tai nghe HyperX Cloud Revolver'
-  singles_runner_up: 'Á quân: 1 triệu VNĐ'
-  team_prize: '3. Street Fighter V Arcade Edition (đồng đội):'
-  team_champion: 'Vô địch: 100% tổng tiền lệ phí'
+  sfv_prize: |
+    Street Fighter V: Điểm Capcom Pro Tour cho những người chơi lọt vào top 8 kèm
+    theo 5 triệu đồng tiền mặt và kỷ niệm chương cho người vô địch.
+  team_prize: |
+    Street Fighter V (3v3): 3 triệu đồng tiền mặt cho đội vô địch.
+  kof_prize: |
+    King of Fighters XIV: 11 triệu đồng tiền mặt kèm  với vé máy bay đi Hong Kong
+    tham gia Neo Geo World Tour Final cho nhà vô địch.
+  kof98_prize: |
+    King of Fighters' 98: 11 triệu đồng tiền mặt kèm  với vé máy bay đi Hong
+    Kong tham gia Neo Geo World Tour Final cho nhà vô địch.
+  dbfz_prize: |
+    Dragon Ball FighterZ: 4 triệu đồng tiền mặt và kỷ niệm chương cho nhà vô
+    địch.
 
   organizers: Tổ chức
   sponsors: tài trợ

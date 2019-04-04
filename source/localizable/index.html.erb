@@ -1,5 +1,5 @@
 ---
-title: Saigon Cup 2018
+title: Saigon Cup 2019
 ---
 <svg style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
@@ -18,7 +18,7 @@ title: Saigon Cup 2018
   </defs>
 </svg>
 
-<% register_url = 'https://smash.gg/sgc18' %>
+<% register_url = 'https://smash.gg/sgc19' %>
 
 <div class="header" id="head">
 
@@ -64,7 +64,7 @@ title: Saigon Cup 2018
       </div>
       <div class="col-xs-12">
         <p class="subheader">
-          <span class="date">21-22.04.2018</span><br>
+          <span class="date">11-12.05.2019</span><br>
           Én Event Space
         </p>
       </div>
@@ -84,7 +84,7 @@ title: Saigon Cup 2018
       <h1><%= t('what_is_sgc') %></h1>
       <p><%= t('sgc_is') %></p>
       <p><%= t('memorable') %></p>
-      <%= image_tag 'pornchannnnn.png', :class => 'trailer center-block img-responsive' %>
+      <%= image_tag 'somekorean.jpg', :class => 'trailer center-block img-responsive' %>
     </div>
   </div>
 
@@ -105,30 +105,38 @@ title: Saigon Cup 2018
     </div>
     <div class="col-sm-12 col-md-4">
       <div class="game-logo-wrapper">
-        <%= image_tag 't7-logo.png'%>
+        <%= image_tag 'dbfz-logo.png'%>
       </div>
-      <p><%= t('t7_single') %></p>
+      <p><%= t('dbfz_single') %></p>
     </div>
     <div class="col-sm-12 col-md-4">
       <div class="game-logo-wrapper">
-        <%= image_tag 'gg-logo.png'%>
+        <%= image_tag 'samsho-logo.png'%>
       </div>
-      <p><%= t('gg_single') %></p>
+      <p><%= t('samsho_single') %></p>
     </div>
 
-    <div class="col-sm-12 col-md-4 col-md-offset-2">
+    <div class="col-sm-12 col-md-4">
       <div class="game-logo-wrapper">
-        <%= image_tag 'sf-logo.png'%>
+        <%= image_tag 'sf-3v3-logo.png'%>
       </div>
       <p>
-      <%= t('sfv_single') %>
+      <%= image_tag 'protour-logo.png', :class => 'vanity-badge' %> <%= t('sfv_single') %>
       </p>
     </div>
     <div class="col-sm-12 col-md-4">
       <div class="game-logo-wrapper">
-        <%= image_tag 'dbfz-logo.png'%>
+        <%= image_tag 'kof-logo.png'%>
       </div>
-      <p><%= t('dbfz_single') %></p>
+      <p>
+      <%= image_tag 'ngwt-logo.png', :class => 'vanity-badge' %> <%= t('kof_single') %>
+      </p>
+    </div>
+    <div class="col-sm-12 col-md-4">
+      <div class="game-logo-wrapper">
+        <%= image_tag 'kof98-logo.png'%>
+      </div>
+      <p><%= t('kof98_single') %></p>
     </div>
 
     <div class="col-xs-12">
@@ -166,24 +174,12 @@ title: Saigon Cup 2018
       <p><%= t('pot_goes_to_prize') %></p>
       <p><%= t('prize_distribution') %></p>
       <div>
-        <%= t('sfv_prizes') %><br />
         <ul class="prize-list">
-        <% ['champion', 'runner_up', 'third'].each do |item| %>
-          <li><%= t(item) %></li>
-        <% end %>
-        </ul>
-      </div>
-      <div>
-        <%= t('single_prizes') %><br />
-        <ul class="prize-list">
-          <li><%= t('singles_champion') %></li>
-          <li><%= t('singles_runner_up') %></li>
-        </ul>
-      </div>
-      <div>
-        <%= t('team_prize') %><br />
-        <ul class="prize-list">
-          <li><%= t('team_champion') %></li>
+          <li><%= t('sfv_prize') %></li>
+          <li><%= t('team_prize') %></li>
+          <li><%= t('kof_prize') %></li>
+          <li><%= t('kof98_prize') %></li>
+          <li><%= t('dbfz_prize') %></li>
         </ul>
       </div>
     </div>
@@ -211,50 +207,10 @@ title: Saigon Cup 2018
       <p><%= t('sponsors') %></p>
     </div>
     <div class="col-md-3">
-      <%= image_tag 'protour-logo.png', :class => 'center-block img-responsive' %>
-    </div>
-    <div class="col-md-3">
       <%= image_tag 'ps4-logo.png', :class => 'center-block img-responsive' %>
     </div>
     <div class="col-md-3">
-      <%= image_tag 'twitch-logo.png', :class => 'center-block img-responsive' %>
-    </div>
-  </div>
-  <div class="row organizers-row">
-    <div class="col-md-offset-3 col-md-3">
-      <%= image_tag 'hyperx-logo.png', :class => 'center-block img-responsive' %>
-    </div>
-  </div>
-
-<!--
-  <div class="row organizers-row">
-    <div class="col-md-3 col-md-offset-3">
-      <%= image_tag 'zowie-logo.png', :class => 'center-block img-responsive' %>
-    </div>
-    <div class="col-md-3">
-      <%= image_tag 'hyperx-logo.png', :class => 'center-block img-responsive' %>
-    </div>
-    <div class="col-md-3">
-      <%= image_tag 'pdp-logo.png', :class => 'center-block img-responsive' %>
-    </div>
-  </div>
-
-  <div class="row organizers-row">
-    <div class="col-md-3 col-md-offset-3">
-      <%= image_tag 'vertagear-logo.png', :class => 'center-block img-responsive' %>
-    </div>
-    <div class="col-md-3">
-      <%= image_tag 'razer-logo.png', :class => 'center-block img-responsive' %>
-    </div>
-  </div>
--->
-
-  <div class="row organizers-row">
-    <div class="col-md-3">
-      <p><%= t('press') %></p>
-    </div>
-    <div class="col-md-3">
-      <%= image_tag 'motgame-logo.png', :class => 'center-block img-responsive' %>
+      <%= image_tag 'logitech-logo.png', :class => 'center-block img-responsive' %>
     </div>
   </div>
 
@@ -306,7 +262,7 @@ title: Saigon Cup 2018
       </div>
 
       <div class="col-xs-12 copyright">
-        &copy; 2018 Saigon FGC. All Rights Reserved.
+        &copy; 2019 Saigon FGC. All Rights Reserved.
       </div>
     </div>
   </div>
